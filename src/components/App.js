@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
 // import Chats from "./Chats"
 import Login from "./Login"
-//ss
+
 function App() {
     return (
         <div style={{fontFamily: 'Avenir'}}>
