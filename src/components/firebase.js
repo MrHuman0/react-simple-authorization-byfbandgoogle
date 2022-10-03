@@ -1,7 +1,7 @@
 import {initializeApp} from 'firebase/app';
 import {getAuth, GoogleAuthProvider, signInWithRedirect, FacebookAuthProvider} from "firebase/auth";
 
-const auth = getAuth(initializeApp({
+export const auth = getAuth(initializeApp({
     apiKey: "AIzaSyBWTiFa9gaGbpXvYoT_rQA_1Mkxthl0SaI",
     authDomain: "messenger-ff14a.firebaseapp.com",
     projectId: "messenger-ff14a",
